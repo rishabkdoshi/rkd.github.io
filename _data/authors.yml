@@ -1,0 +1,105 @@
+# The primary author of this blog.
+# Must be the same as `author` in `_config.yml`.
+# You can change `author1` to your shortname.
+author1:
+  # Replace <...> with your own (remove the < >)
+  name:              Rishab Ketan Doshi
+  email:             rishabketandoshi@gmail.com
+
+  # Used at the bottom of each page and at the top of the `about` layout
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:             |
+
+    <h3 style="background-color: black;color: white;font-family:  monospace;">
+    $ whoami<br>rkd
+    </h3>
+    <div style="text-align: justify;text-justify: inter-word;"> I am Rishab Ketan Doshi(<b>RKD!</b>).
+    I am a Computer Science Graduate student at UCLA.
+    Prior to joining UCLA, I was a Software Engineer in the Platform & Tools Engineering group at Intuit, India.
+    <br>
+    I am passionate about technology, programming, entrepreneurship and watching TV shows. 
+    As an advocate of Experiential Learning, I am constantly looking to discover new experiences that educate and are also fun!
+    </div>
+
+    <br>
+    
+    More about me:
+    
+    CV built using jsonresume. <br>
+    [Timeline](/rishab-timeline/) of my life. <br>
+    Some [people](/category/muse/) I look up to. <br>
+
+
+
+
+
+  # This photo will be used in the about section.
+  picture:
+    path:            assets/img/rishab_orange_county_small.png
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    srcset:
+      1x:            assets/img/rishab_orange_county_small.png
+      2x:            assets/img/rishab_orange_county_small.png
+
+  # Social media icons in sidebar.
+  # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
+  social:
+    twitter:         rishabkdoshi
+    github:          rishabkdoshi
+    linkedin:        rishabkdoshi
+    email:           mailto:rishabketandoshi@gmail.com
+    # rss:             https://<url>/feed.xml
+    facebook:        rishabkdoshi
+    # google:          <number>
+    # vk:              <username>
+    # youtube:         <string_string_string>
+    # vimeo:           <username>
+    # vine:            <username>
+    # spotify:         <user>/<number>
+    # soundcloud:      <username>
+    # lastfm:          <username>
+    # instagram:       <username>
+    # flickr:          <string@string>
+    # 500px:           <username>
+    # dribbble:        <username>
+    # behance:         <username>
+    # deviantart:      <username>
+    # ello:            <username>
+    # twitch:          <username>
+    # steam:           <number>
+    # reddit:          <username>
+    # tumblr:          <username>
+    # pinterest:       <username>
+    # foursquare:      <number>
+    # yelp:            <string>
+    # stackoverflow:   <number/username>
+    # npm:             <username>
+    # hackernews:      <username>
+    # trello:          <firstnamelastname>
+    # linkedin:        <firstname-lastname-string>
+    # xing:            <firstname_lastname_counter>
+    # blogger:         <number>
+    # delicious:       <username>
+    # stumbleupon:     <username>
+    # paypal:          <username>
+
+# Another author
+author2:
+  name:              <firtname> <lastname>
+  email:             <mail@domain.tld>
+  about:             |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+    Open `_data/authors.yml` to edit this text.
+  picture:           https://placehold.it/128x128
+  twitter:           <username>
+  github:            <username>
+
+  # Every author can have his/her own accent color and image.
+  # This will change the appearance of all pages of this author.
+  accent_color:      '#268bd2'
+  accent_image:
+    background:      '#202020'
+    overlay:         false
